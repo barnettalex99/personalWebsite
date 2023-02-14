@@ -99,7 +99,41 @@ p {
 }
 
 .resume-section{
-    border: 1px solid red;
+    border: 2px solid red;
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-header:hover{
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.contact-info{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.contact-info-list{
+    flex-direction: column;
+}
+
+.contact-container{
+    height: 100vh;
+}
+
+#relevant-coursework > p {
+    margin: 16px;
+}
+
+#relevant-coursework > ul {
+    flex-direction: column;
+}
+
+#experience-coursework > ul {
+    flex-direction: column;
 }
