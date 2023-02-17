@@ -22,52 +22,83 @@
         </header>
         <main>
             <h2>My Projects</h2>
+            <h3>Mouse over the project to see more details. Click on the project to check out the source code on GitHub!</h3>
             <div class="project-grid">
-                <div class="project-container">
+                <a href="https://github.com/barnettalex99/TUYouthDB">
+                    <div class="project-container" id="TU-DB-project" onmouseover="showDetails('TU-DB-project')">
                     Triangle Ultimate Youth Database
-                </div>
-                <div class="project-container">
-                    Battleship
-                </div>
-                <div class="project-container">
-                    Python Projects
-                </div>
-                <div class="project-container">
-                    SAS Projects
-                </div>
-                <div class="project-container">
-                    Personal Website
-                </div>
-                <div class="project-container">
-                    Memory Game
-                </div>
-                <div class="project-container">
-                    Library
-                </div>
-                <div class="project-container">
-                    Chapel Hill Weather App
-                </div>
-                <div class="project-container">
-                    Tech-A-Sketch
-                </div>
-                <div class="project-container">
-                    CV App
-                </div>
-                <div class="project-container">
-                    COMP 126 Assignments
-                </div>
-                <div class="project-container">
-                    Calculator
-                </div>
-                <div class="project-container">
-                    Rock Paper Scissors
-                </div>
-                <div class="project-container">
-                    Cutting Corners
-                </div>
-                <div class="project-container">
-                    React Restaurant Page Demo
-                </div>
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/battleship">
+                    <div class="project-container" id="battleship" onmouseover="showDetails('battleship')">
+                        Battleship
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99?tab=repositories&q=&type=&language=python&sort=name">
+                    <div class="project-container" id="python-projects" onmouseover="showDetails('python-projects')">
+                        Python Projects
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/BIOS669">
+                    <div class="project-container" id="sas-projects" onmouseover="showDetails('sas-projects')">
+                        SAS Projects
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/personalWebsite">
+                    <div class="project-container" id="personal-website" onmouseover="showDetails('personal-website')">
+                        Personal Website
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/memory-game">
+                    <div class="project-container" id="memory-game" onmouseover="showDetails('memory-game')">
+                        Memory Game
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/library">
+                    <div class="project-container" id="library" onmouseover="showDetails('library')">
+                        Library
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/weatherApp">
+                    <div class="project-container" id="weather-app" onmouseover="showDetails('weather-app')">
+                        Chapel Hill Weather App
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/Tech-A-Sketch">
+                    <div class="project-container" id="tech-a-sketch" onmouseover="showDetails('tech-a-sketch')">
+                        Tech-A-Sketch
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/CVApp">
+                    <div class="project-container" id="cv-app" onmouseover="showDetails('cv-app')">
+                        CV App
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99?tab=repositories&q=BarnettAA&type=&language=&sort=">
+                    <div class="project-container" id="comp-126" onmouseover="showDetails('comp-126')">
+                        COMP 126 Assignments
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/calculator">
+                    <div class="project-container" id="calculator" onmouseover="showDetails('calculator')">
+                        Calculator
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/rockpaperscissors">
+                    <div class="project-container" id="rock-paper-scissors" onmouseover="showDetails('rock-paper-scissors')">
+                        Rock Paper Scissors
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/cuttingCorners">
+                    <div class="project-container" id="cutting-corners" onmouseover="showDetails('cutting-corners')">
+                        Cutting Corners
+                    </div>
+                </a>
+                <a href="https://github.com/barnettalex99/restaurantPageDemo">
+                    <div class="project-container" id="react-restaurant" onmouseover="showDetails('react-restaurant')">
+                       Restaurant Page Demo
+                    </div>
+                </a>
             </div>
         </main>
         <footer>
@@ -75,5 +106,6 @@
             <!--Maybe put socials here-->
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

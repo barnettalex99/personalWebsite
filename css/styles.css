@@ -135,8 +135,8 @@ a:hover{
 }
 
 .project-container {
- height: 100px;
- width: 100px;
+ height: 200px;
+ width: 200px;
  border: 2px solid red;
  border-radius: 10px;
  margin: 10px;
