@@ -168,3 +168,9 @@ a:hover{
     background-size: cover;
     background-position: center;
 }
+
+@media (max-width: 650px) {
+    ul {
+        flex-direction: column;
+    }
+  }
