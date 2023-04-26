@@ -164,7 +164,7 @@ a:hover{
 
 .nav-item:hover .nav-hover-pic {
     min-width: 20px;
-    background-image: url('/images/icons8-mushroom-60.png');
+    background-image: url('../images/icons8-mushroom-60.png');
     background-size: cover;
     background-position: center;
 }
